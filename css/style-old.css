@@ -1,0 +1,467 @@
+/*@font-face {
+    font-family: Roboto; /* Имя шрифта */
+    /*src: url("fonts/roboto.woff")  format("woff"); /* Путь к файлу со шрифтом */
+    /*src: url("fonts/roboto.woff2")  format("woff2"); /* Путь к файлу со шрифтом */
+/*   }*/
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Roboto", Roboto, sans-serif; /*название шрифта*/
+    font-size: 16px; /*размер шрифта*/
+    line-height: 24px; /*межстрачный интервал*/
+    font-weight: 400; /*400-normal, 700-bold*/
+    color: #283136; /*цвет текста*/
+
+    background-color: #ffffff; /*цвет фона*/
+}
+
+a {
+    text-decoration: none; /*убираем подчерк. у ссылок*/
+}
+
+.main__navigation,
+.basket {
+    line-height: 30px; /*межстрочный интервал*/
+    font-weight: 700; /*400-normal, 700-bold*/
+    text-transform: uppercase; /*все прописные*/
+
+    list-style: none; /*стиль маркера*/
+}
+
+.main__navigation a,
+.basket {
+    color: #000000;;
+}    
+.main__navigation a:hover,
+.basket:hover {
+    color: #fb565a;
+}
+
+.main__navigation a:focus,
+.basket:focus {
+    color: #afafaf;
+}
+
+.main__navigation a:active, 
+.basket:active {
+    color: #000000;
+    text-decoration: underline; /*подчеркнутый текст*/
+}
+
+.slideshow__name {
+    font-size: 55px;
+    line-height: 55px;
+    color: #000000;
+}
+
+.slideshow__button {
+    width: 240px; /* Ширина первого слоя */
+    height: 50px;
+    padding: 10px; /* Поля вокруг текста */
+    background: #fb565a; /* Цвет фона */
+
+    font-size: 18px; /*размер шрифта*/
+    /*font-weight: 700; /*400-normal, 700-bold*/
+    color: #ffffff;
+}
+
+.slideshow__button:hover {
+    background: #e74246; /* Цвет фона */
+}
+
+.slideshow__button:focus {
+    background: #d7373b; /* Цвет фона */
+}
+
+.services__title {
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.button {
+    font-size: 16px;
+    line-height: 18px;
+    
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+.button__site {
+    width: 160px; /* Ширина первого слоя */
+    height: 50px;
+    padding: 10px; /* Поля вокруг текста */
+    background: #fb565a;
+}
+
+.button__site:hover {
+    background: #e74246;
+}
+
+.button__site:focus {
+    background: #d7373b;
+}
+
+.button__apps {
+    width: 160px; /* Ширина первого слоя */
+    height: 50px;
+    padding: 10px; /* Поля вокруг текста */
+    background: #00ca74;
+}
+.button__apps:hover {
+    background: #00bc6c;
+}
+
+.button__apps:focus {
+    background: #00aa62;
+}
+
+.button__presentations {
+    width: 160px; /* Ширина первого слоя */
+    height: 50px;
+    padding: 10px; /* Поля вокруг текста */
+    background: #efc84a;
+}
+.button__presentations {
+    background: #eab534;
+}
+
+.button__presentations {
+    background: #e5a722;
+}
+
+h1.about__title {
+    font-size: 45px;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+
+.about__subtitle {
+    text-transform: uppercase;
+}
+
+b {
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.adres__button {
+    width: 219px; /* Ширина первого слоя */
+    height: 50px;
+    padding: 10px; /* Поля вокруг текста */
+    background: #fb565a;
+
+    
+    color: #ffffff;
+}
+
+.adres__button:hover {
+    background: #e74246;
+}
+
+.adres__button:focus {
+    background: #d7373b;
+}
+
+h2.contactus__title {
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 700; /*400-normal, 700-bold*/
+}
+
+p.contactus__title {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700; /*400-normal, 700-bold*/
+}
+
+a.contactus-button {
+    width: 260px; /* Ширина первого слоя */
+    height: 50px;
+    padding: 10px; /* Поля вокруг текста */
+    background: #fb565a;
+
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700; /*400-normal, 700-bold*/
+    color: #ffffff;
+}
+
+a.contactus-button:hover {
+    background: #e74246;
+}
+
+a.contactus-button:focus {
+    background: #d7373b;
+}
+
+.footer-slogan {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700; /*400-normal, 700-bold*/
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+/*INDEX - END*/
+
+/*Catalog - start*/
+
+.main__title {
+    font-size: 55px;
+    line-height: 55px;
+}
+
+.sort__title {
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.sort__types {
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.catalog__item--title {
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.catalog__item--text {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.catalog__item--btn {
+    width: 200px; /* Ширина первого слоя */
+    height: 50px;
+    padding: 10px; /* Поля вокруг текста */
+    background: #fb565a;
+
+    font-size: 16px;
+    line-height: 18px;
+    
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.catalog__item--btn:hover {
+    background: #e74246;
+}
+
+.catalog__item--btn:focus {
+    background: #d7373b;
+}
+
+.filter__title {
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.filter__blok-inner {
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #283136;
+}
+
+.filter__btn {
+    width: 260px; /* Ширина первого слоя */
+    height: 50px;
+    padding: 5px; /* Поля вокруг текста */
+    background: #eeeeee;
+
+    font-size: 16px;
+    line-height: 18px;
+    
+    text-transform: uppercase;
+    color: #000000;
+}
+/*Спрятать текс
+.visually-hidden {
+    visibility: hidden;
+    
+}
+/* ----- Сеточные стили ----- */
+
+html,
+body {
+    min-width: 1440px;
+    min-height: 1925px;
+}
+/*body {
+    Временно для сетки 
+    background-image: url('img/nerds-index.jpg');
+    background-size: 1440px auto;
+    background-repeat: no-repeat;
+  }*/
+.main__header {
+    background-color: #eeeeee;
+    padding-top: 50px;
+}
+.main__header .container {
+    justify-content: space-between;
+}
+.container {
+    /*min-width: 1200px;
+    /*min-height: 80px;*/
+
+    /*display: flex;*/
+
+    flex-direction: row; /*главная ось направлена слева направо*/
+    align-items: flex-start;
+
+    width: 1200px;
+    /*padding-left: 20px;
+    padding-right: 20px;*/
+    
+    margin: 0 auto;
+}
+.logo {
+    width: 160px;
+    height: 65px;
+
+    /*margin-left: 120px;*/
+    padding-left: 20px;
+}
+.main-navigation {
+    padding-top: 30px;
+}
+.site-navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 440px;
+    padding: 10px;
+    list-style-type: none;
+}
+.basket {
+    width: 80px;
+    margin: 0;
+    /*margin-right: 100px;*/
+    padding-top: 25px;
+    padding-right: 20px;
+}
+
+/*slideshow*/
+.slideshow {
+    background-color: #eeeeee;
+}
+.slideshow__slides-item {
+    display: flex;
+    flex-direction: row; /*главная ось направлена слева направо*/
+    align-items: flex-start;
+    padding-top: 16px;    
+}
+.slideshow__left-column {
+    /*margin-left: 120px;*/
+    padding-left: 20px;    
+}
+.slideshow__right-column {
+    /*margin-right: 120px;*/
+    padding-right: 20px;
+}
+.pagination__list {
+    display: flex;
+    width: 90px;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+/*Услуги*/
+main.container {
+    flex-wrap: wrap;
+}
+
+.services__list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    list-style-type: none;
+}
+.services__item {
+    width: 300px;
+}
+.services__list-site {
+    margin-left: 0px;
+}
+.services__list-apps {
+    padding-left: 120px;
+}
+.services__list-presentations {
+    padding-left: 120px;
+}
+/*О компании*/
+.about {  
+    /*height: 530px;*/
+    padding-top: 40px;
+}
+.about__row {
+    display: flex;
+    justify-content: space-between; 
+}
+.about__left {
+    width: 700px;
+    padding-right: 140px;
+    padding-left: 20px;
+}
+.about__right {
+    width: 400px;
+}
+
+/*Партнеры*/
+.partners {
+    display: flex;
+    justify-content: space-between;
+    /*height: 185px;*/
+    padding-left: 20px;
+}
+/*Карта*/
+/*.map {
+    /*display: flex;
+    flex-wrap: wrap;
+    height: 420px;
+    margin-top: 80px;
+}*/
+/*Адрес*/
+.Address {
+    width: 320;
+    /*height: 310;*/
+    background-color: #efc84a;
+}
+/*Напишите нам*/
+.contactUs {
+    width: 960;
+    /*height: 590;*/
+    background-color: #efc84a;
+}
+/*Футер*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 1200;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+.footer__social {
+    list-style-type: none;
+
+    display: flex;
+    justify-content: space-between;
+    width: 260;
+    /*height: 80;*/
+}
+.footer__right {
+    padding-left: 140px;
+    width: 545;
+    height: 60;
+}

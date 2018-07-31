@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Web-студия «Nerd's»</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic" rel="stylesheet">
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Шапка сайта -->
+        <header class="main">
+            <!--container-Это центровщик -->
+            <div class="main__header container">
+                <!-- логотип сайта с размерами -->
+                <a class="logo" href="index.html">
+                    <!--http://via.placeholder.com/160x65 -->
+                    <img src="img/svg-nerds/nerds-logo.svg" width="160" height="65" alt="Логотип web-студии «Nerd's»">
+                </a>
+                <!-- Навигация по сайту с классом -->
+                <nav class="main__navigation">
+                <!-- Неупорядоченный список -->
+                    <ul class="site__navigation">
+                        <li><a href="Studio.html">Студия</a></li>
+                        <li><a href="Clients.html">Клиенты</a></li>
+                        <li class="site__navigation--current"><a href="Catalog.html">Магазин</a></li>
+                        <li><a href="Contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+                <a class="basket" href="Basket.html">
+                    <img src="img/svg-nerds/cart-icon.svg" width="15" height="15" alt="Корзина">
+                    Корзина
+                </a>
+            </div>
+            <h1 class="main__title container">Магазин готовых шаблонов</h1>
+        </header>
+        <!-- Шапка сайта -->
+
+    <!--Основное содержимое, тег main с классом container.-->
+    <!--каталог-->
+    <div class="catalog">
+      <!--центровщик-->
+      <div class="container">
+        <!--каталог внутренний-->
+        <main class="catalog__inner">
+          <!--сортировка каталога-->
+          <div class="catalog__sort">
+            <!--<h2 class="visually-hidden">Сортировка</h2>-->
+            
+            <h3 class="sort__title">СОРТИРОВАТЬ:</h3> 
+            <!--блок с типом сортировки-->
+            <div class="sort__types">
+              по цене по типу по названию
+            </div>
+
+            <!--блок с направлением (direction) сортировки-->
+            <div class="sort__direction">
+              вниз вверх
+            </div>
+            
+            
+          </div><!--сортировка каталога-->
+
+          <!--список каталогов-->
+          <div class="catalog__list">
+            <!--Sedona-->
+            <div class="catalog__item">
+              <img class="catalog__item--img" src="img/catalog/img-sedona.jpg" width="360" height="576" alt="Sedona">
+              <div class="catalog__item--info">
+                <h3 class="catalog__item--title">Sedona</h3>
+                <p class="catalog__item--text">Информационный сайт для туристов</p>
+                <a class="button catalog__item--btn" href="#">9 900 ₽</a>
+              </div><!--catalog__item-info-->
+            </div><!--catalog__item-->
+            <!--Sedona-->
+
+            <!--Pink App-->
+            <div class="catalog__item">
+              <img class="catalog__item--img" src="img/catalog/img-pink.jpg" width="360" height="576" alt="Pink App">
+              <div class="catalog__item--info">
+                <h3 class="catalog__item--title">Pink App</h3>
+                <p class="catalog__item--text">Продуктовый лендинг приложения для iOS и Android</p>
+                <b><a class="button catalog__item--btn" href="#">9 900 ₽</a></b>
+              </div><!--catalog__item-info-->
+            </div><!--catalog__item-->
+            <!--Pink App-->
+
+            <!--Barbershop-->
+            <div class="catalog__item">
+              <img class="catalog__item--img" src="img/catalog/img-barbershop.jpg" width="360" height="576" alt="Barbershop">
+              <div class="catalog__item--info">
+                <h3 class="catalog__item--title">Barbershop</h3>
+                <p class="catalog__item--text">Сайт салоны красоты. Для мужчин, да.</p>
+                <b><a class="button catalog__item--btn" href="#">9 900 ₽</a></b>
+              </div><!--catalog__item-info-->
+            </div><!--catalog__item-->
+            <!--Barbershop-->  
+
+            <!--MISHKA-->
+            <div class="catalog__item">
+              <img class="catalog__item--img" src="img/catalog/img-mishka.jpg" width="360" height="576" alt="Mishka Hover">
+              <div class="catalog__item--info">
+                <h3 class="catalog__item--title">MISHKA</h3>
+                <p class="catalog__item--text">Интернет-магазин вязаных игрушек</p>
+                <b><a class="button catalog__item--btn" href="#">9 900 ₽</a></b>
+              </div><!--catalog__item-info-->
+            </div><!--catalog__item-->
+            <!--MISHKA-->  
+
+            <!--A Plus-->
+            <div class="catalog__item">
+              <img class="catalog__item--img" src="img/catalog/img-aplus.jpg" width="360" height="576" alt="A Plus">
+              <div class="catalog__item--info">
+                <h3 class="catalog__item--title">A Plus</h3>
+                <p class="catalog__item--text">Лендинг курсов повышения квалификации</p>
+                <b><a class="button catalog__item--btn" href="#">9 900 ₽</a></b>
+              </div><!--catalog__item-info-->
+            </div><!--catalog__item-->
+            <!--A Plus-->  
+
+            <!--КВАСТ-->
+            <div class="catalog__item">
+              <img class="catalog__item--img" src="img/catalog/img-kvast.jpg" width="360" height="576" alt="КВАСТ">
+              <div class="catalog__item--info">
+                <h3 class="catalog__item--title">КВАСТ</h3>
+                <p class="catalog__item--text">Лендинг курсов повышения квалификации</p>
+                <b><a class="button catalog__item--btn" href="#">9 900 ₽</a></b>
+              </div><!--catalog__item-info-->
+            </div><!--catalog__item-->
+            <!--КВАСТ-->  
+
+          </div><!--список каталогов catalog__list-->
+
+        </main><!--каталог внутренний-->
+
+        <div class="pagination">
+          <!--Теперь разметим нумерацию страниц. 
+            Для нее тоже есть общепринятое название — пагинация.-->
+          <ul class="pagination__list">
+          <!--Каждая кнопка - ссылка на одну из страниц на сайте.-->
+            <li class="pagination__item pagination__item--current">1</li>
+            <!--Для кнопки, указывающей на текущую страницу, добавим соответствующий класс.
+            ёpagination-item-current-->
+            <li class="pagination__item"><a href="#">2</a></li>
+            <li class="pagination__item"><a href="#">3</a></li>
+            <li class="pagination__item"><a href="#">4</a></li>
+            <li class="button pagination__item"><a href="#">Следующая</a></li>
+          </ul>    
+        </div>
+        
+      </div><!--центровщик-->
+    </div><!--каталог-->
+
+    <!--Фильтр товаров-->
+    <aside class="filter">
+      <h2 class="visually__hidden">Фильтр товаров</h2>
+      <form action="" class="filter__form">
+        <!--стоимость -->  
+        <div class="filter__block">
+          <h4 class="filter__title">Стоимость</h4>
+          <div class="filter__blok-inner">
+            <div class="half__width">
+              <h2 class="value__title">Стоимость:</h2>
+              <!--<label for="rating">Оценка поездки</label>-->  
+              0 <input type="range" id="rating" name="rating" min="1" max="15000" step="1" value="10" oninput="ratingOutput.value = rating.value"> 15000
+            </div>
+            <div class="half-width output-area">
+              от 0 до 
+              <output name="ratingOutput" id="ratingOutput">15000</output>
+            </div>
+          </div>
+        </div>
+        <!--стоимость -->  
+
+        <!--Сетка -->  
+        <div class="filter__block">
+          <h4 class="filter__title">Сетка:</h4>
+          <div class="filter__blok-inner">
+            <label>
+              <input type="radio" name="question-one" value="adaptive" checked>Адаптивная;
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="question-one" value="fixed">Фиксированная;
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="question-one" value="rubber">Резиновая;
+            </label>
+          </div>
+        </div>
+        <!--Сетка -->  
+
+        <!--Особенности -->
+        <div class="filter__block">
+          <h4 class="filter__title">Особенности:</h4>
+          <div class="filter__blok-inner">
+            <label>
+              <input type="checkbox" name="question-one" value="adaptive" checked>Слайдер;
+            </label>
+            <br>
+            <label>
+              <input type="checkbox" name="question-one" value="fixed">Блок преимуществ;
+            </label>
+            <br>
+            <label>
+              <input type="checkbox" name="question-one" value="rubber">Новости;
+            </label> 
+            <br>
+            <label>
+              <input type="checkbox" name="question-one" value="fixed">Галерея;
+            </label>
+            <br>
+            <label>
+              <input type="checkbox" name="question-one" value="rubber">Корзина;
+            </label> 
+          </div>
+        </div>
+        <!--Особенности -->
+        <button class="button filter__btn" type="submit">Показать</button>
+      </form>
+    </aside>
+    <!--Фильтр товаров-->
+    
+    <!--Карта -->
+    <section class="map">
+      <div class="container">
+          <div class="map__contacts">
+              <h4>NЁRDS DESIGN STUDIO</h4>
+              <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+              <p>тел. +7 (812) 275-75-75</p>
+              <a class="button button__contacts" href="#">Напишите нам</a>
+          </div>
+      </div>
+  </section>       
+    <!--Карта -->
+      
+          
+      
+    <!--Напишите нам-->
+    <section class="contactUs">
+      <h2 class="contactUs__title">Напишите нам</h2>
+      <span class="modal-close">x</span>  
+      <p class="contactUs__title">Ваше имя:</p>
+      <!--lable-->
+      <p class="contactUs__title">Ваш e-mail:</p>
+      <!--lable-->
+      <p class="contactUs__title">Текст письма:</p>
+      <!--lable-->
+      
+      <!--button-->
+      <a class="contactUs-button" href="#">ОТПРАВИТЬ</a>
+    </section>
+    <!--Напишите нам-->
+      
+          <!--Футер-->
+    <footer class="container">
+        <div class="footer">
+            <div class="footer__left">
+                <div class="footer__social">
+                    <a href="#" title="Вконтакте" class="footer__round">
+                        <img src="img/svg-nerds/vk-icon.svg" alt="Вконтакте" class="round">
+                    </a>
+                    <a href="#" title="Фейсбук" class="footer__round">
+                        <img src="img/svg-nerds/fb-icon.svg" alt="Фейсбук" class="round">
+                    </a>
+                    <a href="#" title="Инстаграм" class="footer__round">
+                        <img src="img/svg-nerds/insta-icon.svg" alt="Инстаграм" class="round">
+                    </a>
+                </div>
+
+
+                <!--<ul class="footer__social">
+                    <li class="footer__round">
+                        <a href="#" title="Вконтакте">
+                            <img src="img/svg-nerds/vk-icon.svg" alt="Вконтакте" class="round">
+                        </a>
+                    </li>
+                    <li class="footer__round">
+                        <a href="#" title="Фейсбук">
+                            <img src="img/svg-nerds/fb-icon.svg" alt="Фейсбук" class="round">
+                        </a>
+                    </li>
+                    <li class="footer__round">
+                        <a href="#" title="Инстаграм">
+                            <img src="img/svg-nerds/insta-icon.svg" alt="Инстаграм" class="round">
+                        </a>
+                    </li>
+                </ul>-->
+
+            </div><!--footer__left-->
+            <div class="footer__right"> 
+                <h2 class="footer__slogan">Давайте дружить, это выгодно!</h2>
+                <p class="footer__text">Скидка 10% для друзей из социальных сетей.</p>
+            </div><!--footer__right-->    
+        </div><!--footer-->
+    </footer><!--container-->
+    
+  </body>
+</html>
